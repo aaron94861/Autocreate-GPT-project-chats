@@ -1,0 +1,21 @@
+# V. Endocrine And Metabolic Diseases - Internal Medicine state exam synopsis (Medical University - Sofia)
+# One line per chat:  <number>. <syllabus wording>  [=> <short name used in the prompts>]
+# Edit freely. Delete a line to skip that point. Lines starting with # are ignored.
+
+73. Diabetes mellitus - etiopathogenesis, clinical features
+74. Diabetes mellitus - treatment
+75. Diabetes mellitus - complications
+76. Obesity and Metabolic syndrome
+77. Dyslipidemia
+78. Hypothyroidism
+79. Thyrotoxicosis. Hyperthyroidism.
+80. Nodular goiter. Endemic and sporadic goiter
+81. Hyperproalctinemia. Prolactinoma
+82. Hypercalciemia
+83. Hypocalciemia
+84. Acromegaly and diabetes insipidus
+85. Hypercorticism
+86. Hypocorticism
+87. Hypogonadism - male and female. Clinical picture
+88. Autoimmune disorders of the thyroid gland
+89. Polycystic ovarian syndrome

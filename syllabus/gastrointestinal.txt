@@ -1,0 +1,21 @@
+# VI. Gastrointestinal Diseases - Internal Medicine state exam synopsis (Medical University - Sofia)
+# One line per chat:  <number>. <syllabus wording>  [=> <short name used in the prompts>]
+# Edit freely. Delete a line to skip that point. Lines starting with # are ignored.
+
+90. Gastro-esophageal reflux disease (GERD)
+91. Helicobacter pylori infection
+92. Peptic ulcer
+93. Malabsoption
+94. Ulcerative colitis and Crohn’s disease
+95. Colon tumors
+96. Chronic viral hepatitis
+97. Fatty liver. Alcoholic and nonalcoholic steatohepatitis
+98. Primary biliary cholangitis (Primary biliary cirrhosis ; PBC). Primary sclerosing cholangitis
+99. Autoimmune hepatitis
+100. Liver cirrhosis – etiology, pathogenesis, clinical features
+101. Liver cirrhosis – complications:esophageal varices, ascites, spontaneous bacterial peritonitis(SBP), hepato-renal syndrome, portal encephalopathy. (PE)
+102. Ascites – diagnosis, differential diagnosis, treatment
+103. Cholelithiasis- etiology, pathogenesis, clinical features.
+104. Cholelithiasis – complications: cholecystitis, cholangitis
+105. Acute and chronic pancreatitis
+106. Cholestasis /jaundice syndrome/

@@ -1,0 +1,18 @@
+# IV. Hematologic Diseases - Internal Medicine state exam synopsis (Medical University - Sofia)
+# One line per chat:  <number>. <syllabus wording>  [=> <short name used in the prompts>]
+# Edit freely. Delete a line to skip that point. Lines starting with # are ignored.
+
+59. Iron deficiency anemia
+60. Macrocytic and megaloblastic anemias
+61. Hemolytic anemias. Hemolysis
+62. Aplastic anemia. Agranulocytosis
+63. Hodgkin’s disease
+64. Non-Hodgkin’s lymphomas
+65. Chronic lymphocytic leukemia
+66. Myeloma multiplex
+67. Chronic myeloid leukemia
+68. Polycytemia vera
+69. Acute myeloid leukemia
+70. Acute lymphocytic leukemia (ALL) in adults.
+71. Hemorrhagic diathesis – normal hemostasis. Thrombocytopenia – classification. Immune thrombocytopenia
+72. Hemorrhagic diathesis – normal hemostasis. Hemophilia

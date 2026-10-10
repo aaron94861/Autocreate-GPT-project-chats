@@ -1,0 +1,24 @@
+# III. Rheumatic Diseases - Internal Medicine state exam synopsis (Medical University - Sofia)
+# One line per chat:  <number>. <syllabus wording>  [=> <short name used in the prompts>]
+# Edit freely. Delete a line to skip that point. Lines starting with # are ignored.
+
+39. Reumatoid arthritis
+40. Ankylosing spondilitis (Bechterew’s disease)
+41. Reactive arthritis - Rheumatic fever, Reiter’s syndrome, Lyme disease
+42. Rheumatic fever – diagnosis and treatment
+43. Psoriatic arthritis
+44. Systemic lupus erythematosus
+45. Progressive systemic sclerosis
+46. Polymyosistis / Dermatomyosistis
+47. Vasculitis – classification and clinical features
+48. Henoch-Schönlein purpura
+49. Polyartheritis nodosa (PAN)
+50. ANCA associated vasculitis
+51. Large vessel vasculitis – Horton disease, Takayasu’s arteriitis, Buerger disease
+52. Antiphospholipid syndrome
+53. Gout
+54. Osteoarthritis
+55. Osteoporosis
+56. Soft tissue rheumatism – fibromyalgia and others
+57. Treatment of rheumatic diseases with biological and biosimilar drugs
+58. Humoral immunity changes in rheumatic diseases

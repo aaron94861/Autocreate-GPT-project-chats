@@ -1,0 +1,12 @@
+# One prompt per line, sent in this order in every chat. Lines starting with # are ignored.
+#   {topic}  = the short name (after "=>" in the syllabus file), e.g. Endocarditis
+#   {full}   = the full syllabus wording
+#   {number} = the syllabus point number
+# The "Begin your reply with ..." part makes ChatGPT title each reply the way GPT-to-Anki
+# reads it, so every reply becomes the right Anki card.
+{topic} – Definition. Begin your reply with the bold title "{topic} – Definition".
+{topic} – Aetiology and classification. Begin your reply with the bold title "{topic} – Aetiology and classification".
+{topic} – Pathogenesis. Begin your reply with the bold title "{topic} – Pathogenesis".
+{topic} – Physical examination and signs and symptoms. Begin your reply with the bold title "{topic} – Physical examination and signs and symptoms".
+{topic} – Diagnosis. Begin your reply with the bold title "{topic} – Diagnosis".
+{topic} – Management and treatment. Begin your reply with the bold title "{topic} – Management and treatment".

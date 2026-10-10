@@ -1,0 +1,19 @@
+# VII. Renal Diseases - Internal Medicine state exam synopsis (Medical University - Sofia)
+# One line per chat:  <number>. <syllabus wording>  [=> <short name used in the prompts>]
+# Edit freely. Delete a line to skip that point. Lines starting with # are ignored.
+
+107. Acute postreptococcal glomerulonephritis (GN)
+108. Idiopathic nephrotic syndrome
+109. Membranous glomerulonephritis
+110. IgA glomerulonephritis (Berger’s disease)
+111. Membranoprolipherative glomerulonephritis (MPGN)
+112. Lupus nephritis
+113. Kidney and diabetes
+114. Renal amyloidosis
+115. Acute urinary tract infections
+116. Chronic pyelonephritis
+117. Renal tuberculosis
+118. Nephrolithiasis
+119. Polycystic Renal disease
+120. Acute kidney injury. Pathogenesis, clinical course and treatment
+121. Chronic renal failure – stages and clinical course

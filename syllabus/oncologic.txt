@@ -1,0 +1,13 @@
+# IX. Oncologic Diseases - Internal Medicine state exam synopsis (Medical University - Sofia)
+# One line per chat:  <number>. <syllabus wording>  [=> <short name used in the prompts>]
+# Edit freely. Delete a line to skip that point. Lines starting with # are ignored.
+
+139. Renal tumors
+140. Lung cancers
+141. Esophageal cancer
+142. Gastric cancer
+143. Tumors of the colon
+144. Liver tumors
+145. Pancreatic cancer
+146. Carcinoma of the biliary ducts
+147. Tumor of the thyroid gland

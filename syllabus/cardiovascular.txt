@@ -1,0 +1,30 @@
+# II. Cardiovascular Diseases - Internal Medicine state exam synopsis (Medical University - Sofia)
+# One line per chat:  <number>. <syllabus wording>  [=> <short name used in the prompts>]
+# Edit freely. Delete a line to skip that point. Lines starting with # are ignored.
+
+13. Diseases of the mitral valve: mitral stenosis  => Mitral stenosis
+14. Diseases of the mitral valve: mitral regurgitation  => Mitral regurgitation
+15. Diseases of the aortic valve: aortic stenosis  => Aortic stenosis
+16. Diseases of the aortic valve: aortic insufficiency  => Aortic regurgitation
+17. Endocarditis  => Endocarditis
+18. Pericardial diseases - classification. Pericarditis. Cardiac tamponade.  => Pericardial diseases
+19. Myocardial diseases: myocarditis  => Myocarditis
+20. Myocardial diseases: cardiomyopathies  => Cardiomyopathies
+21. Acute heart failure: cardiac asthma, pulmonary edema, cardiogenic shock – etiology, haemodynamics, clinical features  => Acute heart failure
+22. Treatment of acute heart failure  => Treatment of acute heart failure
+23. Chronic congestive heart failure – etiology, pathogenesis, clinical features.  => Chronic heart failure
+24. Parameters of cardiac function in CHF. Treatment of Chronic heart failure  => Treatment of chronic heart failure
+25. Ischemic heart disease. Stable Angina pectoris  => Stable angina
+26. Acute coronary syndromes: Acute myocardial infarction with -ST segment elevation  => ST-elevation myocardial infarction (STEMI)
+27. Acute coronary artery syndromes without ST segment – elevation: unstable angina pectoris, myocardial infarction without -ST segment elevation  => Unstable angina and NSTEMI
+28. Conductive disturbances. Treatment of conductive disturbances.  => Conduction disturbances
+29. Rhythm abnormalities: supraventricular arrhytmias – classification, hemodinamics, clinical features  => Supraventricular arrhythmias
+30. Treatment of supraventricular arrythmias  => Treatment of supraventricular arrhythmias
+31. Rhythm abnormalities: ventricular arrhytmias – classification, hemodinamics, clinical features  => Ventricular arrhythmias
+32. Treatment of ventricular arrythmias  => Treatment of ventricular arrhythmias
+33. Antiarrhytmic drugs – classification, doses  => Antiarrhythmic drugs
+34. Arterial Hypertension – etiology, classification, clinical features, complications  => Arterial hypertension
+35. Arterial hypertension - treatment  => Treatment of arterial hypertension
+36. Acute Rheumatic feaver. Rheumocarditis  => Acute rheumatic fever
+37. Chronic cor pulmonale  => Chronic cor pulmonale
+38. Aortic diseases: aortic dissection, aortic aneurysm, Takayasu diseas  => Aortic diseases

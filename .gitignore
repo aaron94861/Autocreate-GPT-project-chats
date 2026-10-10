@@ -1,0 +1,6 @@
+chrome-profile/
+progress.json
+progress.json.tmp
+replies/
+__pycache__/
+*.pyc

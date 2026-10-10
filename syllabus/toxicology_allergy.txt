@@ -1,0 +1,21 @@
+# VIII. Toxicology And Allergic Disorders - Internal Medicine state exam synopsis (Medical University - Sofia)
+# One line per chat:  <number>. <syllabus wording>  [=> <short name used in the prompts>]
+# Edit freely. Delete a line to skip that point. Lines starting with # are ignored.
+
+122. Toxicodynamics and toxicokinetics of exogenous poisons
+123. Treatment of acute exogenous poisoning
+124. Acute exogenous poisoning with medicines used to treat cardiovascular diseases, benzodiazepines, antipsychotics, antidiabetic, antipyretic and analgesic and antiemetic agents
+125. Acute exogenous poisoning with alcohols: ethanol, methanol, ethylene glycol
+126. Acute exogenous poisoning with psychoactive substances
+127. Acute exogenous poisoning with organophosphorus compounds
+128. Acute exogenous poisoning with carbon monoxide
+129. Snake venom poisoning
+130. Acute exogenous poisoning with mushrooms
+131. Hereditay angioedema
+132. Asthma: epidemiology, pathogenesis, clinical features, diagnosis and differential diagnosis.
+133. Insect allergy
+134. Food allergy
+135. Drug allergy: type I, II, III
+136. Drug allergy: type IV a, b, c, d
+137. Anaphylaxis
+138. Hypersensitivity Pneumonitis

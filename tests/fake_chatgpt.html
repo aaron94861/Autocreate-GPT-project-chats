@@ -1,0 +1,53 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Fake ChatGPT</title></head>
+<body>
+<!-- Mimics the parts of chatgpt.com that chatgpt_page.py uses. ?limit=N shows a usage-limit
+     message instead of reply number N (counted across the whole test via localStorage). -->
+<main id="thread"></main>
+<div id="prompt-textarea" contenteditable="true" style="min-height:2em;border:1px solid #888"></div>
+<span id="btn"><button data-testid="send-button" id="send">Send</button></span>
+<script>
+const params = new URLSearchParams(location.search);
+const limit = parseInt(params.get("limit") || localStorage.getItem("limit") || "0");
+if (params.get("limit")) localStorage.setItem("limit", params.get("limit"));
+if (params.get("reset")) localStorage.clear();
+const thread = document.getElementById("thread");
+const box = document.getElementById("prompt-textarea");
+const btn = document.getElementById("btn");
+
+function sent() { return JSON.parse(localStorage.getItem("sent") || "[]"); }
+
+function onSend() {
+  const prompt = box.innerText.trim();
+  if (!prompt) return;
+  const log = sent(); log.push({prompt, url: location.pathname}); localStorage.setItem("sent", JSON.stringify(log));
+  box.innerText = "";
+  const u = document.createElement("div");
+  u.setAttribute("data-message-author-role", "user"); u.textContent = prompt; thread.appendChild(u);
+  if (!location.pathname.startsWith("/c/")) history.pushState({}, "", "/c/chat-" + log.length);
+  btn.innerHTML = '<button data-testid="stop-button">Stop</button>';
+  const a = document.createElement("div");
+  a.setAttribute("data-message-author-role", "assistant");
+  const md = document.createElement("div"); md.className = "markdown"; a.appendChild(md);
+  setTimeout(() => {
+    thread.appendChild(a);
+    if (limit && log.length === limit) {
+      md.textContent = "You've reached your usage limit. Try again later.";
+      btn.innerHTML = '<button data-testid="send-button" id="send">Send</button>';
+      document.getElementById("send").onclick = onSend;
+      return;
+    }
+    const title = (prompt.match(/title "([^"]+)"/) || [null, prompt])[1];
+    md.innerHTML = "<p><strong>" + title + "</strong></p><p>Partial";
+    setTimeout(() => {   // finish "streaming"
+      md.innerHTML = "<p><strong>" + title + "</strong></p><p>Answer text with <strong>bold</strong>.</p>" +
+        "<ul><li>First point</li><li>Second point</li></ul>" +
+        "<table><thead><tr><th>A</th><th>B</th></tr></thead><tbody><tr><td>1</td><td>2</td></tr></tbody></table>";
+      btn.innerHTML = '<button data-testid="send-button" id="send">Send</button>';
+      document.getElementById("send").onclick = onSend;
+    }, 400);
+  }, 300);
+}
+document.getElementById("send").onclick = onSend;
+</script>
+</body></html>

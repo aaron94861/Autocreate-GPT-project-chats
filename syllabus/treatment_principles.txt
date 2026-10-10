@@ -1,0 +1,27 @@
+# X. Principals Of Treatment - Internal Medicine state exam synopsis (Medical University - Sofia)
+# One line per chat:  <number>. <syllabus wording>  [=> <short name used in the prompts>]
+# Edit freely. Delete a line to skip that point. Lines starting with # are ignored.
+
+148. Treatment of peptic diseases of the gastrointestinal tract
+149. Treatment of Helicobacter pylori infection
+150. Principles in treatment of chronic liver disease
+151. Treatment of chronic viral hepatitis
+152. Treatment of the liver cirrhosis complications: esophageal varices, ascites, spontaneous bacterial peritonitis, hepato-renal syndrome, encephalopathy
+153. Treatment of chronic cholestasis
+154. Antibacterial treatment of the billiary tract infection
+155. Treatment principles in poisoning
+156. Treatment of urinary tract infection
+157. Treatment in glomerulonephritis
+158. Diabetes mellitus - treatment with insulin and oral medications
+159. Treatment of diabetic complications.
+160. Treatment with NSADS
+161. Treatment in predialysis period of chronic renal failure and indications for dialysis
+162. Clinical and pharmacological approach in NSAIDs therapy.
+163. Treatment of bacterial infection
+164. Treatment with diuretics
+165. Treatment with steroids
+166. Treatment with immunomodulators
+167. Treatment with cytostatics
+168. Treatment of the thrombembolism
+169. Treatment of pneumonia
+170. Treatment of asthma.

@@ -1,0 +1,16 @@
+# I. Pulmonary Diseases - Internal Medicine state exam synopsis (Medical University - Sofia)
+# One line per chat:  <number>. <syllabus wording>  [=> <short name used in the prompts>]
+# Edit freely. Delete a line to skip that point. Lines starting with # are ignored.
+
+1. Acute bronchitis, tracheobronchitis, broncheolitis
+2. Chronic bronchitis, pulmonary emphysema chronic obstructive pulmonary disease
+3. Respiratory failure – pathophysiology, and clinical features
+4. Bacterial community –acquired pneumonia
+5. Nonbacterial community – acquired pneumonia (atypical, viral)
+6. Hospital – acquired pneumonia and pneumonia in immunocompromised patients
+7. Treatment of pneumonias
+8. Purulent diseases - bronchiectasis, pulmonary abscess
+9. Pleural effusions
+10. Pulmonary Tuberculosis
+11. Pulmonary embolism
+12. Diffuse parenchymal pulmonary diseases
