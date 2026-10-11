@@ -18,6 +18,12 @@ set "OPTIONS=--save-replies"
 cd /d "%~dp0"
 set "PY=python"
 where py >nul 2>nul
-if not errorlevel 1 set "PY=py"
+if not errorlevel 1 set "PY=py -3"
+rem Install Playwright for this exact Python if it is missing (makes Setup.bat optional)
+%PY% -c "import playwright" >nul 2>nul
+if errorlevel 1 (
+  echo Installing Playwright - one time only...
+  %PY% -m pip install playwright
+)
 %PY% syllabus_prompter.py --section "%SECTION%" --project-url "%PROJECT_URL%" %OPTIONS% %*
 pause

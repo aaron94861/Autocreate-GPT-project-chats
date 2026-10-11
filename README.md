@@ -95,6 +95,7 @@ The replies start with titles like **"Endocarditis – Definition"**, which is t
 
 | Message | What to do |
 | --- | --- |
+| `Playwright isn't available` even though Setup ran | You have more than one Python installed. Download this repo again (fixed). If you edited the .bat files and want to keep them, change `set "PY=py"` to `set "PY=py -3"` in them instead |
 | `Couldn't find the ChatGPT message box` | Check that you're logged in (run `Log in to ChatGPT.bat`) and that the project address is right |
 | `ChatGPT shows a message containing 'usage limit'` | You've hit ChatGPT's limit. Try again in a few hours |
 | `Couldn't start chrome` | Install Google Chrome, or set `BROWSER_CHANNEL = "msedge"` in `syllabus_prompter.py` to use Edge |

@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """
 syllabus_prompter.py - create one ChatGPT chat per syllabus point inside a ChatGPT
 Project, and ask the same set of questions in each chat.
@@ -301,8 +300,11 @@ def main(argv=None):
 
     try:
         from playwright.sync_api import sync_playwright
-    except ImportError:
-        sys.exit("Playwright isn't installed. Double-click Setup.bat (or run: pip install playwright).")
+    except ImportError as e:
+        sys.exit("Playwright isn't available to the Python running this script (%s).\n"
+                 "  Python used: %s\n"
+                 "  Install it for exactly this Python with:\n"
+                 "    \"%s\" -m pip install playwright" % (e, sys.executable, sys.executable))
     from chatgpt_page import ChatGPTPage
 
     with sync_playwright() as pw:

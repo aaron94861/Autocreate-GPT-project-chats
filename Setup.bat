@@ -4,7 +4,7 @@ rem Uses your installed Google Chrome, so no extra browser is downloaded.
 cd /d "%~dp0"
 set "PY=python"
 where py >nul 2>nul
-if not errorlevel 1 set "PY=py"
+if not errorlevel 1 set "PY=py -3"
 %PY% -m pip install --upgrade playwright
 if errorlevel 1 (
   echo.
